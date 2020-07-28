@@ -1,0 +1,35 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.heightInputDiv{
+	position: absolute;
+	left:0px;
+	bottom:0px;
+	/*width:100%;*/
+	display: flex;
+	justify-content: left;
+	/*text-align: center;*/
+	padding:10px;
+}
+
+.heightInputForm{
+	width:500px;
+	background-color: #FFFFFF88;
+	padding: 10px;
+	border-radius:10px;
+}
+
+.heightLabel {
+	font-size:1.4rem;
+}
